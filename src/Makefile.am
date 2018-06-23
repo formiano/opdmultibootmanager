@@ -1,5 +1,4 @@
-SUBDIRS = ubi_reader
-
-installdir = $(libdir)/enigma2/python/Plugins/Extensions/OpenMultiboot
+installdir = $(pkglibdir)/python/Plugins/Extensions/OPDBoot
+SUBDIRS = bin images ubi_reader OPDBoot_client
 install_PYTHON = *.py
-dist_install_DATA = plugin.png
+dist_install_DATA = *.png *.mvi 
