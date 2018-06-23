@@ -1,8 +1,6 @@
 installdir = $(libdir)/enigma2/python/Plugins/Extensions/OPDBoot/bin
 dist_install_DATA = \
-	opdinitnoboot 
-	
-if HAVE_MB4K	
+	opdinitnoboot 	
 	dist_install_DATA += \	
 	opdinitboot
 else
